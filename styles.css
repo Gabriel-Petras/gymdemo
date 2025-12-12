@@ -88,7 +88,8 @@ body {
      /* Background photo: using local 'gym.jpg' placed in the project root. If you move the file,
          update the path accordingly (e.g., 'assets/gym.jpg'). */
      background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-                    url("assets/gym.jpg") center/cover no-repeat;
+                    /* Use the absolute GitHub Pages URL so the background loads correctly on the live site. */
+                    url("https://Gabriel-Petras.github.io/gymdemo/assets/gym.jpg") center/cover no-repeat;
     color: var(--white);
     padding: 150px 20px 100px;
     text-align: center;
